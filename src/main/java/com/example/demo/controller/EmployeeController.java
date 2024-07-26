@@ -14,7 +14,7 @@ public class EmployeeController {
         return "Hello Employee Controller";
     }
 
-    @GetMapping("/employees")
+    @GetMapping("/secure/employees")
     Iterable<Employee> getEmployees(){
         return employeeService.getEmployees();
     }
