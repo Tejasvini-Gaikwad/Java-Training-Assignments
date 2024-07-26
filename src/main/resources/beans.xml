@@ -11,7 +11,7 @@
         <property name="lname" value="Tejasvini"></property>
     </bean>
 
-    <bean id="e" class="com.example.demo.Employee">
+    <bean id="e" class="com.example.demo.Employee1">
         <constructor-arg value="12" type="int"></constructor-arg>
         <constructor-arg value="Sonoo"></constructor-arg>
         <constructor-arg>

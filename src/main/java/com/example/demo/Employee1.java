@@ -1,13 +1,13 @@
 package com.example.demo;
 
-public class Employee {
+public class Employee1 {
     private int id;
     private String name;
     private Address address;//Aggregation
 
-    public Employee() {System.out.println("def cons");}
+    public Employee1() {System.out.println("def cons");}
 
-    public Employee(int id, String name, Address address) {
+    public Employee1(int id, String name, Address address) {
         super();
         this.id = id;
         this.name = name;

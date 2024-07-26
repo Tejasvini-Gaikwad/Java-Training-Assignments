@@ -9,7 +9,7 @@ public class Test {
 
         Student student = (Student) context.getBean("studentbean");
         student.displayInfo();
-        Employee s=(Employee) context.getBean("e");
+        Employee1 s=(Employee1) context.getBean("e");
         s.show();
     }
 }
